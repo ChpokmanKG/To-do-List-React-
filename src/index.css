@@ -118,6 +118,7 @@ body {
 }
 
 .modal-block {
+  position: fixed;
   width: 70%;
   border: 5px solid #2d39e7;
 }
