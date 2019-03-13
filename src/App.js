@@ -53,7 +53,7 @@ class App extends Component {
     const name = this.state.taskName.map((item,key) => {
 
       return (
-        <Task identy={key} taskName={item} taskDesk={this.state.taskDesk[key]} key={key}/> 
+        <Task identy={key} number={key + 1} taskName={item} taskDesk={this.state.taskDesk[key]} key={key}/> 
       )
 
     })

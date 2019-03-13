@@ -24,7 +24,7 @@ class Task extends Component {
     return(
       <div identy={this.props.identy} onClick={(e) => this.clickOnTask(e)} className={this.state.bool ? 'task all-center h100' : 'task all-center hn'}>
         <div className="task-title all-center">
-          <h2>{this.props.taskName}</h2>
+          <h2><span>{this.props.number}</span>) {this.props.taskName}</h2>
           <Button ident={this.props.identy} classNames={this.state.butBool ? 'button' : 'button succes'} value={this.state.butBool ? 'Выполнил(-а)' : `Выполнено ✅`} onPress={e => this.succes(e)}/>
           <div className="discription">
             <React.Fragment>

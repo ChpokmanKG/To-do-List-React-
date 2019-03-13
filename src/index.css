@@ -152,3 +152,7 @@ body {
 .succes:hover {
   background: rgb(0, 180, 93);
 }
+
+h2 span {
+  color: rgb(216, 213, 213);
+}
